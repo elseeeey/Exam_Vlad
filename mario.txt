@@ -1,8 +1,8 @@
 #include <iostream>
 #include <iomanip>
 using namespace std;
-void buildStairs(int height, int choice);
-void buildPyramide(int height, int choice2);
+void buildStairs(int height, int choice);\\перша функция
+void buildPyramide(int height, int choice2);\\друга функция
 
 int main()
 {
@@ -24,7 +24,9 @@ break;
 case 2:
 buildPyramide(height, choice);
 break;
-
+default:
+cout<<"Incorrect\n";
+break
 }
 system("pause");
 return 0;
