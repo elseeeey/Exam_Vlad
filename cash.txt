@@ -1,7 +1,7 @@
 
 #include <iostream>
 using namespace std;
-
+double corgrn();
 int main()
 {
 
@@ -77,3 +77,6 @@ break;
 cout << "n1 = " << amount1 << endl;
 return;
 }
+double grn;
+grn = corgrn();
+coins(grn);
